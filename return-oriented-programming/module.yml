@@ -1,0 +1,221 @@
+name: "Programmation orientée retour (Return Oriented Programming)"
+resources:
+  - type: header
+    content: "Défis"
+  - type: challenge
+    id: level-1-0
+    name: "Lien lâche, niveau facile (Loose Link (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-1-0
+  - type: challenge
+    id: level-1-1
+    name: "Lien lâche, niveau difficile (Loose Link (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-1-1
+  - type: challenge
+    id: level-2-0
+    name: "Chaîne d'appels, niveau facile (Call Chain (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-2-0
+  - type: challenge
+    id: level-2-1
+    name: "Chaîne d'appels, niveau difficile (Call Chain (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-2-1
+  - type: challenge
+    id: level-3-0
+    name: "Chaîne de commandement, niveau facile (Chain of Command (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-3-0
+  - type: challenge
+    id: level-3-1
+    name: "Chaîne de commandement, niveau difficile (Chain of Command (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-3-1
+  - type: challenge
+    id: level-4-0
+    name: "Stop, pop et ROP, niveau facile (Stop, Pop, and ROP (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-4-0
+  - type: challenge
+    id: level-4-1
+    name: "Stop, pop et ROP, niveau difficile (Stop, Pop, and ROP (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-4-1
+  - type: challenge
+    id: level-5-0
+    name: "Stop, pop et ROP II, niveau facile (Stop, Pop and ROP II (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-5-0
+  - type: challenge
+    id: level-5-1
+    name: "Stop, pop et ROP II, niveau difficile (Stop, Pop, and ROP II (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-5-1
+  - type: challenge
+    id: level-6-0
+    name: "Invocation indirecte, niveau facile (Indirect Invocation (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-6-0
+  - type: challenge
+    id: level-6-1
+    name: "Invocation indirecte, niveau difficile (Indirect Invocation (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-6-1
+  - type: challenge
+    id: level-7-0
+    name: "libc qui fuit, niveau facile (Leaky Libc (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-7-0
+  - type: challenge
+    id: level-7-1
+    name: "libc qui fuit, niveau difficile (Leaky Libc (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-7-1
+  - type: challenge
+    id: level-8-0
+    name: "Putsception, niveau facile (Putsception (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-8-0
+  - type: challenge
+    id: level-8-1
+    name: "Putsception, niveau difficile (Putsception (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-8-1
+  - type: challenge
+    id: demo-take-it-or-leave-it
+    name: "Prendre ou laisser, démonstration (Take it or Leave it Demo)"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: demo-take-it-or-leave-it
+  - type: challenge
+    id: level-9-0
+    name: "Prélude pivot, niveau facile (Pivotal Prelude (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-9-0
+  - type: challenge
+    id: level-9-1
+    name: "Prélude pivot, niveau difficile (Pivotal Prelude (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-9-1
+  - type: challenge
+    id: level-10-0
+    name: "Pointeur pivot, niveau facile (Pivotal Pointer (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-10-0
+  - type: challenge
+    id: level-10-1
+    name: "Pointeur pivot, niveau difficile (Pivotal Pointer (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-10-1
+  - type: challenge
+    id: level-11-0
+    name: "Charge utile pivot, niveau facile (Pivotal Payload (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-11-0
+  - type: challenge
+    id: level-11-1
+    name: "Charge utile pivot, niveau difficile (Pivotal Payload (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-11-1
+  - type: challenge
+    id: level-12-0
+    name: "Quête pivot, niveau facile (Pivotal Pursuit (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-12-0
+  - type: challenge
+    id: level-12-1
+    name: "Quête pivot, niveau difficile (Pivotal Pursuit (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-12-1
+  - type: challenge
+    id: level-13-0
+    name: "Gadgets gardés, niveau facile (Guarded Gadgets (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-13-0
+  - type: challenge
+    id: level-13-1
+    name: "Gadgets gardés, niveau difficile (Guarded Gadgets (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-13-1
+  - type: challenge
+    id: level-14-0
+    name: "Roulette ROP, niveau facile (ROP Roulette (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-14-0
+  - type: challenge
+    id: level-14-1
+    name: "Roulette ROP, niveau difficile (ROP Roulette (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-14-1
+  - type: challenge
+    id: level-15-0
+    name: "Loterie libc, niveau facile (Libc Lottery (Easy))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-15-0
+  - type: challenge
+    id: level-15-1
+    name: "Loterie libc, niveau difficile (Libc Lottery (Hard))"
+    import:
+      dojo: program-security
+      module: return-oriented-programming
+      challenge: level-15-1

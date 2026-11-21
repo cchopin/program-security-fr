@@ -1,0 +1,1 @@
+Provoquer un débordement de pile pour obtenir le flag, mais cette fois dans un binaire PIE protégé par un canari de pile. Attention, cela demande une charge utile soigneusement construite et astucieuse !

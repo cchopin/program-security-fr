@@ -1,0 +1,284 @@
+name: "Mauvaise utilisation de l'allocateur dynamique (Dynamic Allocator Misuse)"
+resources:
+  - type: header
+    content: "Défis"
+  - type: challenge
+    id: level-1-0
+    name: "Cadeau, version facile (Freebie (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-1-0
+  - type: challenge
+    id: level-1-1
+    name: "Cadeau, version difficile (Freebie (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-1-1
+  - type: challenge
+    id: level-2-0
+    name: "Feinte du freebin, version facile (Freebin Feint (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-2-0
+  - type: challenge
+    id: level-2-1
+    name: "Feinte du freebin, version difficile (Freebin Feint (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-2-1
+  - type: challenge
+    id: level-3-0
+    name: "Maladresse sur le flag libéré, version facile (Free Flag Fumble (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-3-0
+  - type: challenge
+    id: level-3-1
+    name: "Maladresse sur le flag libéré, version difficile (Free Flag Fumble (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-3-1
+  - type: challenge
+    id: level-4-0
+    name: "Libération capricieuse, version facile (Fickle Free (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-4-0
+  - type: challenge
+    id: level-4-1
+    name: "Libération capricieuse, version difficile (Fickle Free (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-4-1
+  - type: challenge
+    id: level-5-0
+    name: "Mirage de malloc, version facile (Malloc Mirage (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-5-0
+  - type: challenge
+    id: level-5-1
+    name: "Mirage de malloc, version difficile (Malloc Mirage (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-5-1
+  - type: challenge
+    id: level-6-0
+    name: "À la recherche des secrets, version facile (Seeking Secrets (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-6-0
+  - type: challenge
+    id: level-6-1
+    name: "À la recherche des secrets, version difficile (Seeking Secrets (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-6-1
+  - type: challenge
+    id: level-7-0
+    name: "À la recherche de secrets substantiels, version facile (Seeking Substantial Secrets (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-7-0
+  - type: challenge
+    id: level-7-1
+    name: "À la recherche de secrets substantiels, version difficile (Seeking Substantial Secrets (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-7-1
+  - type: challenge
+    id: level-8-0
+    name: "À la recherche de secrets sans portée, version facile (Seeking Spanless Secrets (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-8-0
+  - type: challenge
+    id: level-8-1
+    name: "À la recherche de secrets sans portée, version difficile (Seeking Spanless Secrets (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-8-1
+  - type: challenge
+    id: level-9-0
+    name: "À la recherche de secrets en contrebande, version facile (Seeking Smuggled Secrets (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-9-0
+  - type: challenge
+    id: level-9-1
+    name: "À la recherche de secrets en contrebande, version difficile (Seeking Smuggled Secrets (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-9-1
+  - type: challenge
+    id: level-10-0
+    name: "Séquence suspecte, version facile (Sus Sequence (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-10-0
+  - type: challenge
+    id: level-10-1
+    name: "Séquence suspecte, version difficile (Sus Sequence (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-10-1
+  - type: challenge
+    id: level-11-0
+    name: "Émanations d'écho, version facile (Echo Emanations (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-11-0
+  - type: challenge
+    id: level-11-1
+    name: "Émanations d'écho, version difficile (Echo Emanations (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-11-1
+  - type: challenge
+    id: level-12-0
+    name: "Usurpation de pile, version facile (Stack Spoofing (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-12-0
+  - type: challenge
+    id: level-12-1
+    name: "Usurpation de pile, version difficile (Stack Spoofing (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-12-1
+  - type: challenge
+    id: level-13-0
+    name: "Invocation de pile, version facile (Stack Summoning (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-13-0
+  - type: challenge
+    id: level-13-1
+    name: "Invocation de pile, version difficile (Stack Summoning (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-13-1
+  - type: challenge
+    id: level-14-0
+    name: "Écho entreprenant, version facile (Enterprising Echo (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-14-0
+  - type: challenge
+    id: level-14-1
+    name: "Écho entreprenant, version difficile (Enterprising Echo (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-14-1
+  - type: challenge
+    id: level-15-0
+    name: "Écho éphémère, version facile (Ephemeral Echo (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-15-0
+  - type: challenge
+    id: level-15-1
+    name: "Écho éphémère, version difficile (Ephemeral Echo (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-15-1
+  - type: challenge
+    id: level-16-0
+    name: "À la recherche de secrets sûrs, version facile (Seeking Safe Secrets (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-16-0
+  - type: challenge
+    id: level-16-1
+    name: "À la recherche de secrets sûrs, version difficile (Seeking Safe Secrets (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-16-1
+  - type: challenge
+    id: level-17-0
+    name: "Sécurité de la séquence suspecte, version facile (Sus Sequence Safety (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-17-0
+  - type: challenge
+    id: level-17-1
+    name: "Sécurité de la séquence suspecte, version difficile (Sus Sequence Safety (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-17-1
+  - type: challenge
+    id: level-18-0
+    name: "Invocation de pile en sécurité, version facile (Safely Stack Summoning (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-18-0
+  - type: challenge
+    id: level-18-1
+    name: "Invocation de pile en sécurité, version difficile (Safely Stack Summoning (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-18-1
+  - type: challenge
+    id: level-19-0
+    name: "Odyssée des chevauchements, version facile (Overlapping Odyssey (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-19-0
+  - type: challenge
+    id: level-19-1
+    name: "Odyssée des chevauchements, version difficile (Overlapping Odyssey (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-19-1
+  - type: challenge
+    id: level-20-0
+    name: "Terreur du tcache, version facile (Tcache Terror (Easy))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-20-0
+  - type: challenge
+    id: level-20-1
+    name: "Terreur du tcache, version difficile (Tcache Terror (Hard))"
+    import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+      challenge: level-20-1

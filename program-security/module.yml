@@ -1,0 +1,291 @@
+name: "Sécurité des programmes (Program Security)"
+resources:
+  - type: header
+    content: "Défis"
+  - type: challenge
+    id: ello-ackers
+    name: "Salut les hackers ! (ello ackers!)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: ello-ackers
+  - type: challenge
+    id: syscall-smuggler
+    name: "Contrebande d'appels système (Syscall Smuggler)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: syscall-smuggler
+  - type: challenge
+    id: syscall-shenanigans
+    name: "Fourberies d'appels système (Syscall Shenanigans)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: syscall-shenanigans
+  - type: challenge
+    id: byte-budget
+    name: "Budget d'octets (Byte Budget)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: byte-budget
+  - type: challenge
+    id: clobbercode
+    name: "Code écrasé (ClobberCode)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: clobbercode
+  - type: challenge
+    id: diverse-delivery
+    name: "Livraison diversifiée (Diverse Delivery)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: diverse-delivery
+  - type: challenge
+    id: pocket-payload
+    name: "Charge utile de poche (Pocket Payload)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: pocket-payload
+  - type: challenge
+    id: micro-menace
+    name: "Micro-menace (Micro Menace)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: micro-menace
+  - type: challenge
+    id: demo-cooking-with-canaries
+    name: "Démonstration : cuisiner avec des canaris (Cooking with Canaries Demo)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: demo-cooking-with-canaries
+  - type: challenge
+    id: login-leakage-easy
+    name: "Fuite de connexion (Facile) (Login Leakage (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: login-leakage-easy
+  - type: challenge
+    id: login-leakage-hard
+    name: "Fuite de connexion (Difficile) (Login Leakage (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: login-leakage-hard
+  - type: challenge
+    id: bounds-breaker-easy
+    name: "Briseur de bornes (Facile) (Bounds Breaker (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: bounds-breaker-easy
+  - type: challenge
+    id: bounds-breaker-hard
+    name: "Briseur de bornes (Difficile) (Bounds Breaker (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: bounds-breaker-hard
+  - type: challenge
+    id: casting-catastrophy-easy
+    name: "Catastrophe de conversion (Facile) (Casting Catastrophe (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: casting-catastrophy-easy
+  - type: challenge
+    id: casting-catastrophy-hard
+    name: "Catastrophe de conversion (Difficile) (Casting Catastrophe (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: casting-catastrophy-hard
+  - type: challenge
+    id: pointer-problems-easy
+    name: "Problèmes de pointeurs (Facile) (Pointer Problems (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: pointer-problems-easy
+  - type: challenge
+    id: pointer-problems-hard
+    name: "Problèmes de pointeurs (Difficile) (Pointer Problems (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: pointer-problems-hard
+  - type: challenge
+    id: anomalous-array-easy
+    name: "Tableau anormal (Facile) (Anomalous Array (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: anomalous-array-easy
+  - type: challenge
+    id: anomalous-array-hard
+    name: "Tableau anormal (Difficile) (Anomalous Array (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: anomalous-array-hard
+  - type: challenge
+    id: now-you-got-it-easy
+    name: "Et voilà (Facile) (Now you got it (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: now-you-got-it-easy
+  - type: challenge
+    id: now-you-got-it-hard
+    name: "Et voilà (Difficile) (Now you got it (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: now-you-got-it-hard
+  - type: challenge
+    id: loop-lunacy-easy
+    name: "Folie des boucles (Facile) (Loop Lunacy (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: loop-lunacy-easy
+  - type: challenge
+    id: loop-lunacy-hard
+    name: "Folie des boucles (Difficile) (Loop Lunacy (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: loop-lunacy-hard
+  - type: challenge
+    id: nosy-neighbor-easy
+    name: "Voisin curieux (Facile) (Nosy Neighbor (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: nosy-neighbor-easy
+  - type: challenge
+    id: nosy-neighbor-hard
+    name: "Voisin curieux (Difficile) (Nosy Neighbor (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: nosy-neighbor-hard
+  - type: challenge
+    id: recursive-ruin-easy
+    name: "Ruine récursive (Facile) (Recursive Ruin (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: recursive-ruin-easy
+  - type: challenge
+    id: recursive-ruin-hard
+    name: "Ruine récursive (Difficile) (Recursive Ruin (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: recursive-ruin-hard
+  - type: challenge
+    id: lingering-leftover-easy
+    name: "Reste persistant (Facile) (Lingering Leftover (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: lingering-leftover-easy
+  - type: challenge
+    id: lingering-leftover-hard
+    name: "Reste persistant (Difficile) (Lingering Leftover (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: lingering-leftover-hard
+  - type: challenge
+    id: latent-leak-easy
+    name: "Fuite latente (Facile) (Latent Leak (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: latent-leak-easy
+  - type: challenge
+    id: latent-leak-hard
+    name: "Fuite latente (Difficile) (Latent Leak (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: latent-leak-hard
+  - type: challenge
+    id: fork-foolery-easy
+    name: "Fourberies de fork (Facile) (Fork Foolery (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: fork-foolery-easy
+  - type: challenge
+    id: fork-foolery-hard
+    name: "Fourberies de fork (Difficile) (Fork Foolery (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: fork-foolery-hard
+  - type: challenge
+    id: demo-complex-corruption
+    name: "Démonstration : corruption complexe (Complex Corruption Demo)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: demo-complex-corruption
+  - type: challenge
+    id: canary-conundrum-easy
+    name: "Énigme du canari (Facile) (Canary Conundrum (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: canary-conundrum-easy
+  - type: challenge
+    id: canary-conundrum-hard
+    name: "Énigme du canari (Difficile) (Canary Conundrum (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: canary-conundrum-hard
+  - type: challenge
+    id: crafty-clobber-easy
+    name: "Écrasement habile (Facile) (A Crafty Clobber (Easy))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: crafty-clobber-easy
+  - type: challenge
+    id: crafty-clobber-hard
+    name: "Écrasement habile (Difficile) (A Crafty Clobber (Hard))"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: crafty-clobber-hard
+  - type: challenge
+    id: can-it-fizz
+    name: "Ça fizz ? (Can It Fizz?)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: can-it-fizz
+  - type: challenge
+    id: does-it-buzz
+    name: "Ça buzz ? (Does It Buzz?)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: does-it-buzz
+  - type: challenge
+    id: make-it-fizzbuzz
+    name: "Faites FizzBuzz (Make It FizzBuzz)"
+    import:
+      dojo: program-security
+      module: program-security
+      challenge: make-it-fizzbuzz

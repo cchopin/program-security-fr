@@ -1,0 +1,23 @@
+id: program-security-fr
+name: "Program Security (français)"
+type: hidden
+import:
+  dojo: program-security
+award:
+  emoji: 🔐
+modules:
+- id: program-security
+  import:
+    module: program-security
+- id: reverse-engineering
+  import:
+    module: reverse-engineering
+- id: return-oriented-programming
+  import:
+    module: return-oriented-programming
+- id: dynamic-allocator-misuse
+  import:
+    module: dynamic-allocator-misuse
+- id: program-exploitation
+  import:
+    module: program-exploitation

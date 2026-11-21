@@ -1,0 +1,256 @@
+name: "Rétro-ingénierie (Reverse Engineering)"
+resources:
+  - type: header
+    content: "Défis"
+  - type: challenge
+    id: level-1-0
+    name: "Jeton terrible, niveau facile (Terrible Token (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-1-0
+  - type: challenge
+    id: level-1-1
+    name: "Jeton terrible, niveau difficile (Terrible Token (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-1-1
+  - type: challenge
+    id: level-2-0
+    name: "Ticket emmêlé, niveau facile (Tangled Ticket (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-2-0
+  - type: challenge
+    id: level-2-1
+    name: "Ticket emmêlé, niveau difficile (Tangled Ticket (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-2-1
+  - type: challenge
+    id: bit-bender
+    name: "Tordeur de bits (Bit Bender)"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: bit-bender
+  - type: challenge
+    id: substitution-sorcery
+    name: "Sorcellerie de substitution (Substitution Sorcery)"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: substitution-sorcery
+  - type: challenge
+    id: level-6-0
+    name: "Malaxeur médiocre, niveau facile (Meager Mangler (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-6-0
+  - type: challenge
+    id: level-6-1
+    name: "Malaxeur médiocre, niveau difficile (Meager Mangler (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-6-1
+  - type: challenge
+    id: level-8-0
+    name: "Malaxeur monstrueux, niveau facile (Monstrous Mangler (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-8-0
+  - type: challenge
+    id: level-8-1
+    name: "Malaxeur monstrueux, niveau difficile (Monstrous Mangler (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-8-1
+  - type: challenge
+    id: level-9-0
+    name: "Rafistolé, niveau facile (Patched Up (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-9-0
+  - type: challenge
+    id: level-9-1
+    name: "Rafistolé, niveau difficile (Patched Up (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-9-1
+  - type: challenge
+    id: level-10-0
+    name: "Patch en forme de puzzle, niveau facile (Puzzle Patch (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-10-0
+  - type: challenge
+    id: level-10-1
+    name: "Patch en forme de puzzle, niveau difficile (Puzzle Patch (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-10-1
+  - type: challenge
+    id: level-11-0
+    name: "Patch parfait, niveau facile (Patch Perfect (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-11-0
+  - type: challenge
+    id: level-11-1
+    name: "Patch parfait, niveau difficile (Patch Perfect (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-11-1
+  - type: challenge
+    id: level-15-0
+    name: "Faire confiance au Yancode, niveau facile (Trust the Yancode (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-15-0
+  - type: challenge
+    id: level-15-1
+    name: "Faire confiance au Yancode, niveau difficile (Trust the Yancode (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-15-1
+  - type: challenge
+    id: level-16-0
+    name: "Connaître le Yancode, niveau facile (Know the Yancode (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-16-0
+  - type: challenge
+    id: level-16-1
+    name: "Connaître le Yancode, niveau difficile (Know the Yancode (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-16-1
+  - type: challenge
+    id: level-17-0
+    name: "Maîtriser le Yancode, niveau facile (Master the Yancode (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-17-0
+  - type: challenge
+    id: level-17-1
+    name: "Maîtriser le Yancode, niveau difficile (Master the Yancode (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-17-1
+  - type: challenge
+    id: level-18-0
+    name: "Transcender le Yancode, niveau facile (Transcend the Yancode (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-18-0
+  - type: challenge
+    id: level-18-1
+    name: "Transcender le Yancode, niveau difficile (Transcend the Yancode (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-18-1
+  - type: challenge
+    id: level-19-0
+    name: "L'Yanalyseur, niveau facile (The Yanalyzer (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-19-0
+  - type: challenge
+    id: level-19-1
+    name: "L'Yanalyseur, niveau difficile (The Yanalyzer (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-19-1
+  - type: challenge
+    id: level-20-0
+    name: "Le Yangleur, niveau facile (The Yangler (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-20-0
+  - type: challenge
+    id: level-20-1
+    name: "Le Yangleur, niveau difficile (The Yangler (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-20-1
+  - type: challenge
+    id: level-21-0
+    name: "Yancraft, niveau facile (Yancraft (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-21-0
+  - type: challenge
+    id: level-21-1
+    name: "Yancraft, niveau difficile (Yancraft (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-21-1
+  - type: challenge
+    id: level-22-0
+    name: "Yansanité, niveau facile (Yansanity (Easy))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-22-0
+  - type: challenge
+    id: level-22-1
+    name: "Yansanité, niveau difficile (Yansanity (Hard))"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: level-22-1
+  - type: challenge
+    id: when-the-cow-says-moo
+    name: "Quand la vache dit meuh (When the Cow Says Moo)"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: when-the-cow-says-moo
+  - type: challenge
+    id: predictable-migration
+    name: "Migration prévisible (Predictable Migration)"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: predictable-migration
+  - type: challenge
+    id: hashing-heifers
+    name: "Génisses hachées (Hashing Heifers)"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: hashing-heifers
+  - type: challenge
+    id: salty-stampede
+    name: "Ruée salée (Salty Stampede)"
+    import:
+      dojo: program-security
+      module: reverse-engineering
+      challenge: salty-stampede
