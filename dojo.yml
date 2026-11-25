@@ -1,6 +1,6 @@
 id: program-security-fr
 name: "Program Security (français)"
-type: hidden
+type: public
 import:
   dojo: program-security
 award:
